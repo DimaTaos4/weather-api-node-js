@@ -24,12 +24,10 @@
 // console.log(now.toISO());
 
 
-// import { getCurrentWeatherByCity } from "./weatherApi.js";
-
-const weatherData = await getCurrentWeatherByCity('Stuttgart')
-console.log(weatherData);
-import "dotenv/config";
+import { getCurrentWeatherByCity } from "./weatherApi.js";
+import dotenv from "dotenv";
 dotenv.config();
+const weatherData = await getCurrentWeatherByCity('Stuttgart')
 console.log(`Температура в Stuttgart ${weatherData.current.temperature}°C`);
 
 
