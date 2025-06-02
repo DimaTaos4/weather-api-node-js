@@ -6,4 +6,4 @@ node_modules
 
 .vscode
 
-.config
+src/config.js
