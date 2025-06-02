@@ -1,6 +1,6 @@
-import { DateTime } from "luxon";
+// import { DateTime } from "luxon";
 
-const now = DateTime.now()
+// const now = DateTime.now()
 // console.log(now);
 // const now2 = DateTime.local()
 // console.log(now2);
@@ -28,7 +28,8 @@ const now = DateTime.now()
 
 // const weatherData = await getCurrentWeatherByCity('Stuttgart')
 // console.log(weatherData);
-
+import "dotenv/config";
+dotenv.config();
 console.log(`Температура в Stuttgart ${weatherData.current.temperature}°C`);
 
 

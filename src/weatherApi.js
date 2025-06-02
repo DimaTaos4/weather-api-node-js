@@ -4,7 +4,7 @@ import axios from "axios";
 const weatherInstance = axios.create({
     baseURL: "https://api.weatherstack.com",
     params: {
-        access_key: WEATHER_ACCESS_KEY,
+        access_key: process.env.WEATHER_ACCESS_KEY,
     }
 })
 
