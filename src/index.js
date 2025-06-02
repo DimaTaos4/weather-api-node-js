@@ -29,7 +29,7 @@ const now = DateTime.now()
 // const weatherData = await getCurrentWeatherByCity('Stuttgart')
 // console.log(weatherData);
 
-// console.log(`Температура в Stuttgart ${weatherData.current.temperature}°C`);
+console.log(`Температура в Stuttgart ${weatherData.current.temperature}°C`);
 
 
-console.log(process.env);
+// console.log(process.env);
